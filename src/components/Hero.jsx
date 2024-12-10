@@ -28,10 +28,10 @@ function Hero() {
           </div>
 
           <section className="flex flex-row gap-4">
-            <button className="border border-zinc-500 bg-customWhite text-darkBlack rounded-md px-6">
+            <button className="border border-zinc-500 bg-customWhite text-darkBlack hover:bg-zinc-300 rounded-md px-6 transform transition-all duration-300">
               Contáctame
             </button>
-            <button className="flex flex-row items-center gap-2 bg-lightBlack rounded-md px-3 py-2 border border-zinc-700 hover:bg-customWhite hover:text-darkBlack transform transition-all duration-300">
+            <button className="flex flex-row items-center gap-2 bg-lightBlack rounded-md px-3 py-2 border border-zinc-700 hover:bg-zinc-700 transform transition-all duration-300">
               Descargar CV <Download className="bg-transparent" size={20} />
             </button>
           </section>
