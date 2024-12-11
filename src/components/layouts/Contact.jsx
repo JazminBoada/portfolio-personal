@@ -9,13 +9,13 @@ import { SendHorizontal } from "lucide-react";
 
 function Contact() {
   return (
-    <div className="w-full pt-12 bg-darkBlack text-customWhite">
+    <div className="w-full pt-12  text-customWhite">
       <main className="mx-auto max-w-7xl px-5 md:px-10 lg:px-34 xl:px-60 pb-5">
         <h1 className="text-xl md:text-2xl xl:text-3xl text-center font-semibold mb-10">
           ¡Pongámonos en contacto!
         </h1>
 
-        <form action="" className="flex flex-col space-y-2 md:px-20">
+        <form action="" className="flex flex-col space-y-2 md:px-32">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="w-full flex flex-col gap-2">
               <span>Nombre</span>

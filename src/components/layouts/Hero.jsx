@@ -1,14 +1,20 @@
 import React from "react";
-import profileImage from "../assets/profile.png";
+import profileImage from "../../assets/profile.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { Download } from "lucide-react";
 
 function Hero() {
   return (
-    <div className="w-full pt-24 bg-darkBlack text-customWhite">
-      <main className="mx-auto max-w-7xl flex flex-col items-center md:flex-row-reverse md:justify-between md:items-start md:px-10 lg:px-34 xl:px-60">
-        <div className="md:w-56 md:h-56 w-40 h-40 pt-5 mr-10">
-          <img src={profileImage} alt="profile" />
+    <div className="w-full pt-24 text-customWhite">
+      <main className="mx-auto max-w-7xl flex flex-col items-center justify-center md:flex-row-reverse md:justify-between md:items-start md:px-10 lg:px-34 xl:px-60">
+        <div className="relative md:w-56 md:h-56 w-40 h-40 pt-5 mb-4">
+          {/* Efecto de blur detrás de la imagen */}
+          <div className="absolute -inset-5 rounded-full bg-gradient-radial from-[#ae2ae3]/60 to-transparent blur-[100px] opacity-150 z-0" />
+          <img
+            src={profileImage}
+            alt="profile"
+            className="relative z-10 rounded-full"
+          />
         </div>
 
         <div className="flex flex-col justify-center md:justify-start items-center md:items-start space-y-4 pt-5">

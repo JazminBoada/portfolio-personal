@@ -1,18 +1,18 @@
 import React from "react";
-import IconSkill from "./layouts/iconSkill";
-import html from "../assets/iconos/html5.svg";
-import css from "../assets/iconos/css.svg";
-import javascript from "../assets/iconos/javascript.svg";
-import react from "../assets/iconos/react.svg";
-import tailwind from "../assets/iconos/tailwindcss.svg";
-import next from "../assets/iconos/nextjs_icon_dark.svg";
-import vscode from "../assets/iconos/vscode.svg";
-import figma from "../assets/iconos/figma.svg";
-import zustand from "../assets/iconos/zustand.svg";
+import IconSkill from "../ui/Iconskill";
+import html from "../../assets/iconos/html5.svg";
+import css from "../../assets/iconos/css.svg";
+import javascript from "../../assets/iconos/javascript.svg";
+import react from "../../assets/iconos/react.svg";
+import tailwind from "../../assets/iconos/tailwindcss.svg";
+import next from "../../assets/iconos/nextjs_icon_dark.svg";
+import vscode from "../../assets/iconos/vscode.svg";
+import figma from "../../assets/iconos/figma.svg";
+import zustand from "../../assets/iconos/zustand.svg";
 
 function Skills() {
   return (
-    <div className="w-full bg-darkBlack text-customWhite">
+    <div className="w-full  text-customWhite">
       <main className="mx-auto max-w-7xl px-5 pt-12 md:px-10 lg:px-34 xl:px-60">
         <h1 className="text-xl md:text-2xl font-semibold mb-4">
           Habilidades y Herramientas

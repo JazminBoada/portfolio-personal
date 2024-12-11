@@ -55,10 +55,16 @@ function Header() {
             </span>
           </button>
         </div>
-
+        {/* Fondo blur */}
+        {isMenuOpen && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm z-40 mt-16"
+            style={{ zIndex: 40 }}
+          />
+        )}
         {/* Menu */}
         <section
-          className={`md:hidden fixed top-0 right-0 mt-16 w-full bg-white shadow-lg rounded-lg transition-transform duration-300 ease-in-out bg-darkBlack text-customWhite ${
+          className={`md:hidden fixed top-0 right-0 mt-14 w-full pb-5 transition-transform duration-300 ease-in-out bg-darkBlack text-customWhite ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ zIndex: 50 }}

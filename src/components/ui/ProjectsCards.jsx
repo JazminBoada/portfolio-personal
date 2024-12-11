@@ -12,8 +12,14 @@ const ButtonCard = ({ icon, title }) => {
 
 function ProjectsCards({ image, title, button, appLink, sourceLink }) {
   return (
-    <div className="flex flex-col space-y-4 border border-zinc-700 rounded-md p-4 bg-lightBlack">
-      <img src={image} alt={title} className="rounded-md" />
+    <div className="flex flex-col space-y-4 border border-zinc-700 rounded-md p-4 bg-lightBlack ">
+      <div className="rounded-md overflow-hidden">
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover transition-transform duration-500 transform hover:scale-110"
+        />
+      </div>
       <h1 className="font-semibold tracking-wider">{title}</h1>
 
       <section className="flex flex-row items-center justify-between">
@@ -24,13 +30,13 @@ function ProjectsCards({ image, title, button, appLink, sourceLink }) {
         </div>
 
         <div className="flex flex-row gap-1">
-          <a href={appLink} target="_blank" rel="noopener noreferrer">
+          <a href={sourceLink} target="_blank" rel="noopener noreferrer">
             <Github
               size={20}
               className="hover:text-zinc-600 trnasform transition-all duration-300"
             />
           </a>
-          <a href={sourceLink} target="_black" rel="noopener noreferrer">
+          <a href={appLink} target="_black" rel="noopener noreferrer">
             <SquareArrowOutUpRight
               size={20}
               className="hover:text-zinc-600 trnasform transition-all duration-300"

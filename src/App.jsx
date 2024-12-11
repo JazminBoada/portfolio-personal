@@ -1,22 +1,26 @@
 import "./App.css";
-import Aboutme from "./components/Aboutme";
-import Contact from "./components/contact";
-import Footer from "./components/Footer";
-import Header from "./components/header";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import MouseLight from "./components/effects/MouseLight";
+import Aboutme from "./components/layouts/Aboutme";
+import Contact from "./components/layouts/Contact";
+import Footer from "./components/layouts/Footer";
+import Header from "./components/layouts/Header";
+import Hero from "./components/layouts/Hero";
+import Projects from "./components/layouts/Projects";
+import Skills from "./components/layouts/Skills";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Aboutme />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div className="relative min-h-screen bg-darkBlack overflow-hidden">
+      <MouseLight className="z-0" />
+      <div className="relative z-10">
+        <Header />
+        <Hero />
+        <Aboutme />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
