@@ -17,7 +17,7 @@ function Skills() {
         <h1 className="text-xl md:text-2xl font-semibold mb-4">
           Habilidades y Herramientas
         </h1>
-        <div className="flex flex-row flex-wrap gap-3">
+        <div className="flex flex-row flex-wrap gap-4">
           <IconSkill icon={html} alt="HTML5" />
           <IconSkill icon={css} alt="CSS3" />
           <IconSkill icon={javascript} alt="JavaScript" />

@@ -14,11 +14,21 @@ function App() {
       <MouseLight className="z-0" />
       <div className="relative z-10">
         <Header />
-        <Hero />
-        <Aboutme />
-        <Skills />
-        <Projects />
-        <Contact />
+        <section id="perfil">
+          <Hero />
+        </section>
+        <section id="sobremi">
+          <Aboutme />
+        </section>
+        <section id="habilidades">
+          <Skills />
+        </section>
+        <section id="proyectos">
+          <Projects />
+        </section>
+        <section id="contacto">
+          <Contact />
+        </section>
         <Footer />
       </div>
     </div>
