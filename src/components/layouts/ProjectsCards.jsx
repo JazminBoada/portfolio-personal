@@ -3,7 +3,7 @@ import { Github, SquareArrowOutUpRight } from "lucide-react";
 
 const ButtonCard = ({ icon, title }) => {
   return (
-    <button className="flex items-center justify-center border border-zinc-700 rounded-md py-1 px-2 text-xs hover:bg-darkBlack trnasform transition-all duration-300">
+    <button className="flex items-center justify-center border border-zinc-700 rounded-md py-1 px-2 text-xs hover:bg-zinc-600 trnasform transition-all duration-300">
       {icon && <span className="mr-1 text-lg">{icon}</span>}
       {title}
     </button>
@@ -27,13 +27,13 @@ function ProjectsCards({ image, title, button, appLink, sourceLink }) {
           <a href={appLink} target="_blank" rel="noopener noreferrer">
             <Github
               size={20}
-              className="hover:text-zinc-700 trnasform transition-all duration-300"
+              className="hover:text-zinc-600 trnasform transition-all duration-300"
             />
           </a>
           <a href={sourceLink} target="_black" rel="noopener noreferrer">
             <SquareArrowOutUpRight
               size={20}
-              className="hover:text-zinc-700 trnasform transition-all duration-300"
+              className="hover:text-zinc-600 trnasform transition-all duration-300"
             />
           </a>
         </div>

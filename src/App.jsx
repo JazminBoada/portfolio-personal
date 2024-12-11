@@ -1,5 +1,7 @@
 import "./App.css";
 import Aboutme from "./components/Aboutme";
+import Contact from "./components/contact";
+import Footer from "./components/Footer";
 import Header from "./components/header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -13,6 +15,8 @@ function App() {
       <Aboutme />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="w-full pt-24 bg-darkBlack text-customWhite">
       <main className="mx-auto max-w-7xl flex flex-col items-center md:flex-row-reverse md:justify-between md:items-start md:px-10 lg:px-34 xl:px-60">
-        <div className="lg:w-72 lg:h-72 md:w-56 md:h-56 w-40 h-40">
+        <div className="md:w-56 md:h-56 w-40 h-40 pt-5 mr-10">
           <img src={profileImage} alt="profile" />
         </div>
 
@@ -19,11 +19,17 @@ function Hero() {
           </h1>
 
           <div className="flex flex-row gap-4 p-2">
-            <a href="" className="border border-zinc-500 rounded-md p-2">
-              <AiFillLinkedin size={27} className="bg-transparent" />
+            <a
+              href=""
+              className="border border-zinc-500 rounded-md p-2 hover:text-zinc-500 hover:border-zinc-500 transform transition-all duration-300"
+            >
+              <AiFillLinkedin size={27} />
             </a>
-            <a href="" className="border border-zinc-500 rounded-md p-2">
-              <AiFillGithub size={27} className="bg-transparent" />
+            <a
+              href=""
+              className="border border-zinc-500 rounded-md p-2 hover:text-zinc-500 hover:border-zinc-500 transform transition-all duration-300"
+            >
+              <AiFillGithub size={27} />
             </a>
           </div>
 

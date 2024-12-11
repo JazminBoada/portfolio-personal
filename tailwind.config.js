@@ -4,9 +4,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBlack: "#101010",
+        darkBlack: "#171716",
         lightBlack: "#222222",
         customWhite: "#ebebeb",
+      },
+    },
+    animation: {
+      brightness: "brightness 2.2s linear infinite",
+    },
+    keyframes: {
+      brightness: {
+        "0%": {
+          transform: "skew(-13deg) translateX(-100%)",
+        },
+        "100%": {
+          transform: "skew(-13deg) translateX(100%)",
+        },
       },
     },
   },

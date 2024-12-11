@@ -13,8 +13,8 @@ import zustand from "../assets/iconos/zustand.svg";
 function Skills() {
   return (
     <div className="w-full bg-darkBlack text-customWhite">
-      <main className="mx-auto max-w-7xl px-5  py-12 md:px-10 lg:px-34 xl:px-60">
-        <h1 className="text-xl font-semibold mb-4">
+      <main className="mx-auto max-w-7xl px-5 pt-12 md:px-10 lg:px-34 xl:px-60">
+        <h1 className="text-xl md:text-2xl font-semibold mb-4">
           Habilidades y Herramientas
         </h1>
         <div className="flex flex-row flex-wrap gap-3">
