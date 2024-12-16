@@ -2,6 +2,7 @@ import React from "react";
 import profileImage from "../../assets/profile.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { Download } from "lucide-react";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -26,13 +27,17 @@ function Hero() {
 
           <div className="flex flex-row gap-4 p-2">
             <a
-              href=""
+              href="https://www.linkedin.com/in/jazmin-boada-b99b21306/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-zinc-500 rounded-md p-2 hover:text-zinc-500 hover:border-zinc-500 transform transition-all duration-300"
             >
               <AiFillLinkedin size={27} />
             </a>
             <a
-              href=""
+              href="https://github.com/JazminBoada"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-zinc-500 rounded-md p-2 hover:text-zinc-500 hover:border-zinc-500 transform transition-all duration-300"
             >
               <AiFillGithub size={27} />
@@ -40,9 +45,14 @@ function Hero() {
           </div>
 
           <section className="flex flex-row gap-4">
-            <button className="border border-zinc-500 bg-customWhite text-darkBlack hover:bg-zinc-300 rounded-md px-6 transform transition-all duration-300">
+            <Link
+              to="contacto"
+              smooth={true}
+              duration={500}
+              className="border border-zinc-500 bg-customWhite text-darkBlack hover:bg-zinc-300 rounded-md pt-2 px-6 transform transition-all duration-300 cursor-pointer"
+            >
               Contáctame
-            </button>
+            </Link>
             <button className="flex flex-row items-center gap-2 bg-lightBlack rounded-md px-3 py-2 border border-zinc-700 hover:bg-zinc-700 transform transition-all duration-300">
               Descargar CV <Download className="bg-transparent" size={20} />
             </button>
