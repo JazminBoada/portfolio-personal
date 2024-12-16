@@ -36,7 +36,7 @@ function Projects() {
               { title: "Next.js", icon: <RiNextjsLine /> },
             ]}
             sourceLink="https://github.com/JazminBoada/nextjs-todo-app"
-            appLink=""
+            appLink="https://note-app1-nextjs.vercel.app/"
           />
           <ProjectsCards
             image={img3}
