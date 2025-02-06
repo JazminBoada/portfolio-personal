@@ -7,7 +7,8 @@ function Aboutme() {
         <h1 className="text-xl md:text-2xl font-semibold mb-4">Sobre mi</h1>
         <section className="border border-zinc-700 bg-lightBlack p-4 rounded-md">
           <p className="pb-2">
-            Hace 2 años estudio de manera autodidacta para especializarme como
+            Hace dos años comencé a formarme de manera autodidacta para
+            especializarme como
             <b> desarrolladora web Frontend</b>.
           </p>
           <p>
