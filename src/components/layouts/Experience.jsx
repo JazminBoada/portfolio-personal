@@ -10,7 +10,7 @@ export default function Experience() {
           <ExperienceCard
             title="Frontend Developer"
             subtitle="Empresa 'Tablas Carpincho' | Enero 2025 - Febrero 2025"
-            text="Diseño y desarrollo de una Landing Page, un sitio web estático con la finalidad de informar a los clientes acerca de quienes son ellos, los productos y servicios que ofrecen, apoyando así a sus objetivos comerciales. 
+            text="Diseño y desarrollo de una Landing Page, con la finalidad de informar a los clientes acerca de quienes son, los productos y servicios que ofrecen, apoyando así a sus objetivos comerciales. 
             Herramientas de diseño: Figma y Canva. 
             Tecnologías: JavaScript, React.js y TailwindCSS, librerias de JavaScript."
           />
