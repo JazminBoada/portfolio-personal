@@ -2,6 +2,7 @@ import "./App.css";
 import MouseLight from "./components/effects/MouseLight";
 import Aboutme from "./components/layouts/Aboutme";
 import Contact from "./components/layouts/Contact";
+import Experience from "./components/layouts/Experience";
 import Footer from "./components/layouts/Footer";
 import Header from "./components/layouts/Header";
 import Hero from "./components/layouts/Hero";
@@ -20,6 +21,7 @@ function App() {
         <section id="sobremi">
           <Aboutme />
         </section>
+        <Experience />
         <section id="habilidades">
           <Skills />
         </section>
