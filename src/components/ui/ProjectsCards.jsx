@@ -10,7 +10,7 @@ const ButtonCard = ({ icon, title }) => {
   );
 };
 
-function ProjectsCards({ image, title, button, appLink, sourceLink }) {
+function ProjectsCards({ image, title, text, button, appLink, sourceLink }) {
   return (
     <div className="flex flex-col space-y-4 border border-zinc-700 rounded-md p-4 bg-lightBlack ">
       <div className="rounded-md overflow-hidden">
@@ -21,6 +21,7 @@ function ProjectsCards({ image, title, button, appLink, sourceLink }) {
         />
       </div>
       <h1 className="font-semibold tracking-wider">{title}</h1>
+      <p>{text}</p>
 
       <section className="flex flex-row items-center justify-between">
         <div className="flex flex-row gap-2">
