@@ -21,10 +21,11 @@ function App() {
         <section id="sobremi">
           <Aboutme />
         </section>
-        <Experience />
         <section id="habilidades">
           <Skills />
         </section>
+        <Experience />
+
         <section id="proyectos">
           <Projects />
         </section>
