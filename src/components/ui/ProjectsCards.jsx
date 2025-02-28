@@ -21,7 +21,7 @@ function ProjectsCards({ image, title, text, button, appLink, sourceLink }) {
         />
       </div>
       <h1 className="font-semibold tracking-wider">{title}</h1>
-      <p>{text}</p>
+      <p className="hidden">{text}</p>
 
       <section className="flex flex-row items-center justify-between">
         <div className="flex flex-row gap-2">
